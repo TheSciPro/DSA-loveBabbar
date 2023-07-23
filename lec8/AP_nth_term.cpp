@@ -2,8 +2,9 @@
 using namespace std;
 int nthTerm(int n)
 {
-    int m;
-    m=7+(n*3);
+    int m,p;
+    p=n-1;
+    m=7+(p*3);
     return m;
 }
 int main()
